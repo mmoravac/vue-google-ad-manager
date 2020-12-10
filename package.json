@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/garrettbland/vue-google-ad-manager.git"
+    "url": "git+https://github.com/mmoravac/vue-google-ad-manager.git"
   },
   "keywords": [
     "vuejs",
@@ -22,7 +22,7 @@
   "author": "Garrett Bland",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/garrettbland/vue-google-ad-manager/issues"
+    "url": "https://github.com/mmoravac/vue-google-ad-manager/issues"
   },
-  "homepage": "https://github.com/garrettbland/vue-google-ad-manager#readme"
+  "homepage": "https://github.com/mmoravac/vue-google-ad-manager#readme"
 }
