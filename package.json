@@ -1,6 +1,6 @@
 {
-  "name": "vue-google-ad-manager",
-  "version": "0.0.2",
+  "name": "google-ad-manager-vue",
+  "version": "1.0.0",
   "description": "Google Ad Manager Plugin for Vue",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "doubleclick",
     "vue"
   ],
-  "author": "Garrett Bland",
+  "author": "Milos Moravac",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mmoravac/vue-google-ad-manager/issues"

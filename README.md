@@ -1,26 +1,23 @@
 # Google Ad Manager for Vue
 Vue.js plugin to easy implement google ad units to your SPA
 
-##### Currently in production on these sites
-[https://northplattepost.com](https://northplattepost.com)
-
 ## Installation
 
 **Install**
 
 ```
-npm install vue-google-ad-manager
+npm install google-ad-manager-vue
 ```
 *or*
 ```
-yarn add vue-google-ad-manager
+yarn add google-ad-manager-vue
 ```
 
 **Import and use the plugin in your main.js or entry file** 
 You must pass in your network code and mappings. Sizes object is optional. Example below. 
 
 ```javascript
-import AdManager from 'vue-google-ad-manager';
+import AdManager from 'google-ad-manager-vue';
 
 let mappings = {
 	banner:[
