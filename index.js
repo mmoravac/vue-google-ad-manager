@@ -26,7 +26,7 @@ export default {
         let googleScript = document.createElement('script');
         googleScript.async = true;
         googleScript.type = 'text/javascript';
-        googleScript.src = 'https://securepubads.g.doubleclick.net'
+        googleScript.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js'
 
         // Reference head of document
         var head = document.getElementsByTagName('head')[0];
