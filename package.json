@@ -1,6 +1,6 @@
 {
   "name": "google-ad-manager-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Ad Manager Plugin for Vue",
   "main": "index.js",
   "scripts": {
