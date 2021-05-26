@@ -23,13 +23,13 @@ export default {
         googletag.cmd = googletag.cmd || [];
 
         // Create script reference to google ad manager
-        let googleScript = document.createElement('script');
+        const googleScript = document.createElement('script');
         googleScript.async = true;
         googleScript.type = 'text/javascript';
         googleScript.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js'
 
         // Reference head of document
-        var head = document.getElementsByTagName('head')[0];
+        const head = document.getElementsByTagName('head')[0];
         head.appendChild(googleScript)
 
         // Define google tag slots
@@ -75,7 +75,7 @@ export default {
 
     setSize(mapping){
 
-        let mapper = googletag.sizeMapping();
+        const mapper = googletag.sizeMapping();
 
         mapping.forEach((map) => {
             mapper.addSize(map.window, map.sizes)
